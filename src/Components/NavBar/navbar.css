@@ -1,0 +1,70 @@
+.__menu__arriba {
+  display: flex;
+  width: 100%;
+  height: 145px;
+  background: #fcf9f9;
+}
+
+
+.navbar__logocontenido {
+  padding: 10px;
+  left: 25px;
+  position: absolute;
+}
+.__logo {
+  width: 120px;
+}
+
+.seccion__izquierda {
+  position: absolute;
+  left: 50%;
+}
+.icono {
+  padding: 20px;
+}
+.menu__letrasnumero h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+}
+.menu__letrasnumero p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+/*POSOCION PARA EL TELEFONO*/
+.menu__letrasnumero {
+  margin-top: -50px;
+  margin-left: 65px;
+}
+
+/*Posicion para web*/
+@media screen and (min-width: 928px) {
+  .seccion__izquierda {
+    left: 75%;
+  }
+  .menu__letrasnumero h3 {
+    font-size: 15px;
+  }
+  .menu__letrasnumero p {
+    font-size: 18px;
+  }
+  .__logo {
+    width: 150px;
+  }
+}
+/*Seccion de Nav Bar*/
+.navbar{
+    margin-top: -50px;
+    background-color: #8A9CFB ;
+}
+a{
+    font-size: 1.5rem;
+}

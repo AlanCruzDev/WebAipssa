@@ -1,0 +1,28 @@
+p{
+    font-size: 2rem;
+}
+
+.contactoimagen .texto__centro__contscto{
+    position: absolute;
+    z-index: 1;
+    margin-top: -80px;
+    margin-left: 36%;
+}
+.contactoimagen .texto__centro__contscto h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.contactoimagen img{
+    filter: brightness(55%);
+}
+@media screen and (min-width: 928px) {
+    .contactoimagen .texto__centro__contscto{
+        margin-top: -18%;
+        margin-left: 37%;
+    }
+    .contactoimagen .texto__centro__contscto h2{
+        font-size: 7rem;
+    }
+}

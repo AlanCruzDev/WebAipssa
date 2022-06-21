@@ -1,0 +1,61 @@
+.foooter__aipssa{
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../Img/Footer/image.jpg);
+    background-size: cover;
+    background-position:  center center;
+}
+.__logo__footer{
+    width: 200px;
+    margin-top: 10%;
+}
+.footer__parrafo{
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: justify;
+}
+.footer__h2{
+    margin-top: 25px;
+    font-size: 5rem;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (min-width: 928px) {
+    .footer__parrafo{
+        font-size: 2.1rem;
+
+    }
+    
+.__logo__footer{
+    width: 250px;
+    margin-top: 25%;
+    }
+}
+.contenedor__redessociales{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+    gap: 15px;
+}
+.icon__facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  background:  #3b5998;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  cursor: pointer;
+}

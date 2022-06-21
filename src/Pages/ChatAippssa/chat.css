@@ -1,0 +1,110 @@
+
+.contenedor{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  grid-template-rows: 0.23fr 3fr;
+  grid-template-areas: 
+    "sidebar nav nav nav"
+    "sidebar main main main";
+}
+
+.chatcuerpoContenedor {
+  position: fixed;
+  height: 100vh;
+  background: white;
+}
+
+/*Mostrar Listas*/
+.contenedor__lista {
+  display: flex;
+  background: red;
+  align-items: center;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.contenedor__lista h2 {
+  margin-left: 10px;
+}
+.contenedor__lista:hover{
+  background-color: yellow;
+}
+
+/*Estilos chat footer*/
+.chat__footerContenedor{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.txt__chatpanel{
+  resize: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 41px;
+  max-height: 97px;
+  width:912px;
+  border: 1px solid #e4e7ec;
+  background-color: #f9fafb;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.chat__footerContenedor .txt__chatpanel{
+  font-size: 1.5rem;
+}
+
+/*Chat de contenedor*/
+  
+.chat_contenedorContenedor {
+  padding: 15px;
+  width:975px;
+  height: 91%;
+  overflow-y: scroll;
+}
+/*Chat de  asistente*/
+.chat_contenedorContenedor .chatMessage-asistente{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.chat_contenedorContenedor .chatMessage-asistente p{
+  display: flex;
+  justify-content:flex-start;
+  background: #81c9fa;
+  width: 450px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/*Chat de cliente*/
+.chat_contenedorContenedor .chatMessage-cliente{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.chat_contenedorContenedor .chatMessage-cliente p{
+  display: flex;
+  justify-content:flex-start;
+  background: #ff0080;
+  width: 450px;
+  height: auto;
+  padding:10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/*Boton del chat*/
+.btn__send{
+  margin-top: 0px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: #81c9fa;
+  border-radius: 15px;
+  color: white;
+}

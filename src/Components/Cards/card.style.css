@@ -1,0 +1,71 @@
+.contenedor__card{
+    width: 100%;
+    max-width: 1280px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor__card .card__main{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: white;
+}
+.contenedor__card .card__main:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+.contenedor__card .card__main img{
+    width: 330px;
+    height: 220px;
+    filter: brightness(65%);
+
+}
+.contenedor__card .card__main h4{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.contenedor__card .card__main p{
+    margin-top: 20px;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn__card{
+    display:flex ;
+    background-color:#3498db;
+    width: 45%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    margin-left: 25%;
+}
+
+.btn__card a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.btn__card a:hover{
+    color: white;
+}
+
+.btn__card .btn__icono{
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}

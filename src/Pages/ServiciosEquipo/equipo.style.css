@@ -1,0 +1,95 @@
+.card-header{
+    border: none !important;
+}
+.card-body{
+    background-color: white;
+}
+.card__equipo{
+    margin-top: -20rem;
+}
+
+.title__equipo{
+    font-size: 3rem;
+    color: white;
+    /*Tipo de letra para portadas*/
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+}
+
+.contactoimagen .texto__centro{
+    position: absolute;
+    z-index: 1;
+    margin-top: -175px;
+    margin-left: 28%;
+}
+.contactoimagen .texto__centro h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.title__equipo{
+  font-size: 1.5rem;
+}
+.contactoimagen img{
+    filter: brightness(55%);
+}
+
+@media screen and (min-width: 928px) {
+    .contactoimagen .texto__centro{
+        margin-top: -45%;
+        margin-left: 30%;
+    }
+    .title__equipo{
+      font-size: 3.5rem;
+    }
+
+    .contactoimagen .texto__centro h2{
+        font-size: 15rem;
+    }
+}
+.glitch {
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 10vw;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+          animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+ }
+ @-webkit-keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @-webkit-keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  .cuerpo__equipoServicio{
+    margin-top: 150px;
+  }
+  @media screen and (min-width: 928px){
+    .cuerpo__equipoServicio{
+      margin-top: -50px;
+    }
+  }

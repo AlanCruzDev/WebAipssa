@@ -1,0 +1,42 @@
+#sidebar {
+    grid-area: sidebar;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 100%;
+    background: #fcf9f9;
+  }
+  
+  .sidebar__title {
+    display: flex;
+    color:black ;
+    background: white;
+    border: 1px solid white;
+  }
+  
+  .sidebar__img {
+    display: flex;
+    align-items:flex-end;
+  }
+  .sidebar__title > div > img {
+    width: 60px;
+    object-fit: contain;
+  }
+  
+  .sidebar__img  > h3{
+    font-size: 22px;
+    display: inline;
+  }
+  .acciones__barralateral{
+    display: flex;
+    margin-left: 170px;
+  }
+  .acciones__barralateral > .icono__accion_barralateral{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .icono__accion_barralateral:hover{
+    cursor: pointer;
+  }
+  
+  

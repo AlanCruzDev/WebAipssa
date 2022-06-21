@@ -1,0 +1,29 @@
+.cardding__titulo{
+    margin-top: 10rem;
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.cardding__subtitulo{
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+.video__contenedor{
+    position: relative;
+    padding-top: 56.25%;
+  }
+.video__equipo{
+   position: absolute;
+   top: 0;
+   left: 52%;
+}
+.video__equipo__izq¨{
+    position: absolute;
+   top: 0;
+   left: 3%;
+
+}
+.casdising__video{
+    font-size: 3rem;
+    margin-top: 50px;
+}

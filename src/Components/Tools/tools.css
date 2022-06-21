@@ -1,0 +1,20 @@
+.tools{
+    overflow-y:auto ; 
+    -webkit-transition:all 0.5s;
+    transition: all 0.5s;
+    margin-top:320px;
+    width: 180px;
+    height: 150px;
+    left: 160px;
+    position:absolute;
+    top: -255px;
+    display: block;
+    z-index: 9999;
+    background: #81c9fa;
+    border-radius: 5px;
+  }
+  .listaLetra{
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
